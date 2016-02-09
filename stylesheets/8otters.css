@@ -5,5 +5,20 @@
 }
 
 .client-list img {
-    width: 70%;
+    max-width: 120px;
+    margin-right: 20px;
+}
+
+.specializations li {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 675px) {
+    header h1 {
+        margin-left: 0px;
+    }
+    header h1:before {
+        display: none;
+        /*content: "";*/
+    }
 }
