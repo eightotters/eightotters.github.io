@@ -5,10 +5,36 @@
     <meta name=viewport content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/8otters.css" media="screen">
 
     <title>Eight Otters Software Development</title>
+    
+    <!-- inlined overrides and page-specific stuff -->
+    <style>
+        .client-list {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .client-list img {
+            max-width: 120px;
+            margin-right: 20px;
+        }
+
+        .specializations li {
+            margin-bottom: 10px;
+        }
+
+        @media screen and (max-width: 675px) {
+            header h1 {
+                margin-left: 0px;
+            }
+            header h1:before {
+                display: none;
+                /*content: "";*/
+            }
+        }
+    </style>
 </head>
 
 <body>
