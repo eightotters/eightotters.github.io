@@ -1,0 +1,9 @@
+.client-list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.client-list img {
+    width: 70%;
+}
